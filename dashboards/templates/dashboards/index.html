@@ -1,0 +1,967 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Christopher Etheridge - Data Solutions Architect</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="{% static 'dashboards/css/animate.css' %}">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="{% static 'dashboards/css/icomoon.css' %}">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="{% static 'dashboards/css/bootstrap.css' %}">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="{% static 'dashboards/css/flexslider.css' %}">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="{% static 'dashboards/fonts/flaticon/font/flaticon.css' %}">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="{% static 'dashboards/css/owl.carousel.min.css' %}">
+	<link rel="stylesheet" href="{% static 'dashboards/css/owl.theme.default.min.css' %}">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="{% static 'dashboards/css/style.css' %}">
+
+	<!-- Modernizr JS -->
+	<script src="{% static 'dashboards/js/modernizr-2.6.2.min.js' %}"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	<div id="colorlib-page">
+		<div class="container-wrap">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			<div class="text-center">
+				<div class="author-img" style="background-image: url({% static 'dashboards/images/headshot.jpg' %});"></div>
+				<h1 id="colorlib-logo"><a href="index.html">Christopher Etheridge</a></h1>
+				<span class="position">
+					Data Solutions Architect
+					<br>
+					Data Scientist
+					<br>
+					Analytics Engineer
+				</span>
+			</div>
+			<nav id="colorlib-main-menu" role="navigation" class="navbar">
+				<div id="navbar" class="collapse">
+					<ul>
+						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
+						<li><a href="#" data-nav-section="about">About</a></li>
+						<li><a href="#" data-nav-section="services">Services</a></li>
+						<li><a href="#" data-nav-section="skills">Skills</a></li>
+						<li><a href="#" data-nav-section="education">Education</a></li>
+						<li><a href="#" data-nav-section="experience">Experience</a></li>
+						<li><a href="#" data-nav-section="work">Work</a></li>
+						<li><a href="#" data-nav-section="blog">Blog</a></li>
+						<li><a href="#" data-nav-section="contact">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+
+			<div class="colorlib-footer">
+				<a href="https://www.linkedin.com/in/christopher-etheridge-msda/" target="_blank"><img align="center" alt="linked-in" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+				
+				<br>
+
+				<a href="https://stackoverflow.com/users/10654403/christopher" target="_blank"><img align="center" alt="Stack Overflow" src="https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" /></a>
+
+
+
+
+
+				<p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright <script>document.write(new Date().getFullYear());</script> All rights reserved. Made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span> </small></p>
+	
+			</div>
+
+		</aside>
+
+		<div id="colorlib-main">
+			<section id="colorlib-hero" class="js-fullheight" data-section="home">
+				<div class="flexslider js-fullheight">
+					<ul class="slides">
+				   	<li style="background-image: url({% static 'dashboards/images/pioneer-peak-winter-bg1.jpg' %});">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner js-fullheight">
+					   					<div class="desc">
+						   					<h1>Hi! <br>I'm Christopher</h1>
+						   					<h2>
+						   						<b>Data Solutions, Analytics Engineering, Full Stack Development</b>
+						   					</h2>
+						   					<!--
+											<p><a class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></p>
+										-->
+										</div>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				   	<li style="background-image: url({% static 'dashboards/images/butte-bg1.jpg' %});">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner">
+					   					<div class="desc">
+						   					<h1>
+						   						Data Focused
+						   						<br>
+						   						App Development
+						   					</h1>	
+						   					<!--
+											<p><a href="#" data-nav-section="work" class="btn btn-primary btn-learn" >View Portfolio <i class="icon-briefcase3"></i></a></p>
+											-->
+											</div>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				  	</ul>
+			  	</div>
+			</section>
+
+			<section class="colorlib-about" data-section="about">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="col-md-12">
+									<div class="about-desc">
+										<span class="heading-meta">About Me</span>
+										<h2 class="colorlib-heading">Who Am I?</h2>
+										<p><strong>Hi I'm Christopher Etheridge</strong>. I'm a seasoned data professional with a passion for solving complex problems and driving business success through innovative solutions. With over 8 years of experience in <strong>Data Solution Engineering</strong> and <strong>Data Science</strong>, I've honed my skills in data analysis, software development, and project management. My journey has taken me through high-paced environments where I've thrived under pressure, delivering impactful results and exceeding expectations. I'm dedicated to continuous learning and growth, always seeking new challenges and opportunities to expand my expertise. Let's connect and explore how I can contribute to your next project or initiative.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+									<div class="services color-1">
+										<span class="icon2"><i class="icon-bulb"></i></span>
+										<h3>Solutions Architect</h3>
+									</div>
+								</div>
+
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
+									<div class="services color-2">
+										<span class="icon2"><i class="icon-globe-outline"></i></span>
+										<h3>Data Engineer</h3>
+									</div>
+								</div>
+
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
+									<div class="services color-3">
+										<span class="icon2"><i class="icon-data"></i></span>
+										<h3>Custom Analytics Software</h3>
+									</div>
+								</div>
+
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+									<div class="services color-4">
+										<span class="icon2"><i class="icon-phone3"></i></span>
+										<h3>Data Science</h3>
+									</div>
+								</div>
+							</div>
+								<!--
+							<div class="row">
+								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+									<div class="hire">
+										<h2>I am happy to know you <br>that 300+ projects done sucessfully!</h2>
+										<a href="#" class="btn-hire">Hire me</a>
+									</div>
+								</div>
+							</div>
+
+						-->
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			
+			<section class="colorlib-services" data-section="services">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">What I do?</span>
+							<h2 class="colorlib-heading">Here are a few of my areas of expertise</h2>
+						</div>
+					</div>
+					<div class="row row-pt-md">
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-1">
+								<span class="icon">
+									<i class="icon-bulb"></i>
+								</span>
+								<div class="desc">
+									<h3>Innovative Ideas</h3>
+									<p>Bespoke Data Solutions</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-2">
+								<span class="icon">
+									<i class="icon-data"></i>
+								</span>
+								<div class="desc">
+									<h3>Software</h3>
+									<p>Custom Built Analytics Apps</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-3">
+								<span class="icon">
+									<i class="icon-phone3"></i>
+								</span>
+								<div class="desc">
+									<h3>Data Pipelines</h3>
+									<p>Engineering ETL Solutions</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-4">
+								<span class="icon">
+									<i class="icon-layers2"></i>
+								</span>
+								<div class="desc">
+									<h3>Data Warehouse</h3>
+									<p>Taking query times from 12 hours to 6 seconds</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-5">
+								<span class="icon">
+									<i class="icon-data"></i>
+								</span>
+								<div class="desc">
+									<h3>Large Language Models</h3>
+									<p>Custom Trained LLMs engineered to exact business requirements</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-6">
+								<span class="icon">
+									<i class="icon-phone3"></i>
+								</span>
+								<div class="desc">
+									<h3>Robotic Process Automation</h3>
+									<p>Streamlined Solutions</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+	
+	<!--		
+			<div id="colorlib-counter" class="colorlib-counters" style="background-image: url({% static 'dashboards/images/cover_bg_1.jpg' %});" data-stellar-background-ratio="0.5">
+				<div class="overlay"></div>
+				<div class="colorlib-narrow-content">
+					<div class="row">
+					</div>
+					<div class="row">
+						<div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="309" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Cups of coffee</span>
+						</div>
+						<div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="356" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Projects</span>
+						</div>
+						<div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="30" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Clients</span>
+						</div>
+						<div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="10" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Partners</span>
+						</div>
+					</div>
+				</div>
+			</div>
+-->
+
+			<section class="colorlib-skills" data-section="skills">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">My Specialty</span>
+							<h2 class="colorlib-heading animate-box">My Skills</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<p>With a strong foundation in programming languages, frameworks, and tools, coupled with hands-on experience in data analytics, software development, and cloud technologies, I am equipped to tackle a wide range of challenges. I approach all problems with a first principles mindset, breaking them down to fundamental concepts and building innovative solutions from the ground up. Being agnostic to any one programming language or tech stack, I prioritize selecting the most appropriate tools and methodologies for each unique problem. From building robust web applications to conducting in-depth data analysis and visualization, I am committed to staying at the forefront of technology and continuously expanding my skill set.</p>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Python</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+								    <span>90%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>SQL</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="98"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:98%">
+								    <span>98%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>PL/SQL</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="75"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
+								    <span>75%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>Django</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								    <span>70%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>AWS</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								    <span>70%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>Salesforce</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+								    <span>80%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="colorlib-education" data-section="education">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Education</span>
+							<h2 class="colorlib-heading animate-box">Education</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<div class="fancy-collapse-panel">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingOne">
+									        <h4 class="panel-title">
+									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Master Degree Data Analytics
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+									         <div class="panel-body">
+									         	<p>
+									         		Western Governors University
+									         	</p>
+									            <div class="row">
+										      		<div class="col-md-6">
+										      			<ul>
+										      				<li>Data Cleaning</li>
+										      				<li>Predictive Modeling</li>
+										      				<li>Data Mining</li>
+										      				<li>Representation & Reporting</li>
+										      			</ul>
+										      		</div>
+										      		<div class="col-md-6">
+										      			<ul>
+										      				<li>Neural Networks</li>
+										      				<li>Decision Trees</li>
+										      				<li>Regression Analysis</li>
+										      				<li>Sentiment Analysis</li>
+										      			</ul>
+										      		</div>
+										      	</div>
+									         </div>
+									    </div>
+									</div>
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingTwo">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Bachelor Degree of Computer Science
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+									        <div class="panel-body">
+									            <p>Old Dominion University</p>
+												<ul>
+													<li>Object Oriented Programming</li>
+													<li>Automata Theory</li>
+													<li>Python & C++</li>
+													<li>Linear Algebra</li>
+												</ul>
+									        </div>
+									    </div>
+									</div>
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingThree">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">AAS in Information Technology
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+									        <div class="panel-body">
+									            <p>Tidewater Community College</p>	
+									            <ul>
+									            	<li>Network Security</li>
+									            	<li>Cyberlaw</li>
+									            	<li>Digital Forensics</li>
+									            </ul>
+									        </div>
+									    </div>
+									</div>
+
+									
+
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="colorlib-experience" data-section="experience">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Experience</span>
+							<h2 class="colorlib-heading animate-box">Work Experience</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+				         <div class="timeline-centered">
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-1">
+					                  <i class="icon-pen2"></i>
+					               </div>
+
+					               <div class="timeline-label">
+					                  <h2>
+					                  	Data Solutions Engineer at Etheridge Consulting LLC <span>May 2022-Present</span></h2>
+					                  <p>
+					                  	Private consulting work focused on extending support and further developing initiatives undertaken with previous teams, fostering ongoing growth and collaboration. Dedicated to maintaining and enhancing the impact achieved in prior roles, while continuing to provide valuable expertise and solutions to clients.
+					                  </p>
+					                  <ul>
+					                  	<li>
+					                  		Led a cross-functional team to develop and deploy custom BI solution for government contractor client, translating client requirements into a comprehensive development roadmap with precise deadlines.
+					                  	</li>
+					                  	<li>
+					                  		Developed speech-to-text data insertion using AWS Transcribe and other AWS services.
+					                  	</li>
+					                  	<li>
+					                  		Resolved critical issues in Microsoft Power Automate workflow that played a pivotal role in the financial team’s operations.
+					                  	</li>
+					                  	<li>
+											Implemented a strategic initiative to migrate business logic from Tableau data sources to the data warehouse (Redshift), enhancing performance and scalability, while future- proofing the organization.
+										</li>
+									</ul>
+									<p>
+										Tech Stack: AWS, AWS GovCloud, Salesforce, MS Power Platform, Tableau Server, JupyterLab, Oracle APEX
+										<br>
+										Languages: Python, SQL, PL/SQL, Django, JavaScript, Bootstrap
+									</p>
+					               </div>
+					            </div>
+					         </article>
+
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-2">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="https://www.capacity.com">Analytics Engineer at Capacity</a> <span>May 2022 - Aug 2023</span></h2>
+					                  <p>Capacity is a SaaS company, that automates support and help desk for customers and teams. It deflects tickets, emails, and phone calls making company’s more efficient and helping customer’s get the information they need as quickly as possible.</p>
+					                  <ul>
+					                  	<li>
+					                  		Data Engineered ETL pipelines, optimizing analytics infrastructure, and future proofing business intelligence ecosystem via a data warehouse on AWS.</li>
+					                  	<li>
+					                  		Collaborated with Customer Success Teams to provide data solutions for customers across 70+ industries including Healthcare, Real Estate, and Education.</li>
+					                  	<li>
+					                  		Led discussions to formulate and refine BI strategies, collaborating with stakeholders to align BI initiatives with overarching business objectives.
+										</li>
+					                  </ul>
+					                  <p>
+					                  	Tech Stack: AWS, OpenAI, Salesforce, Glue, Redshift, MariaDB, Azure, PowerBI, Tableau, JupyterLab
+					                  	<br>
+					                  	Languages: Python, SQL, PySpark, JavaScript
+					                  </p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-3">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">Data Solutions Architect at ADS</a> <span>Jan 2022 - May 2022</span></h2>
+					                  <p>ADS Inc provides military equipment, army procurement, logistics, and supply chain solutions for federal agencies and protective services.</p>
+					                  <ul>
+					                  	<li>Spearheaded the design and development of a Python/Django based BI application. This innovative solution facilitated data driven decision making, providing real time insights to support critical sales initiatives while in the field.</li>
+					                  	<li>Played a pivotal role in the growth and development of junior analysts by providing mentorships through SQL and Python code reviews. This commitment to fostering talent resulted in a highly skills and performant team.</li>
+					                  </ul>
+					                  <p>
+					                  	Tech Stack: AWS (Elastic Beanstalk, RDS, EC2, S3, Glue), Salesforce, Postgres, Oracle
+										<br>
+					                  	Languages: Python, SQL, PL/SQL, R, Django, JavaScript (React, NextJS), PySpark
+					                  </p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-4">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">Business Intelligence Analyst at ADS</a> <span>Aug 2018 - Dec 2021</span></h2>
+					                  <ul>
+					                  	<li>
+					                  		Lead the development of robotic process automation (RPA) scripts to streamline business processes, reducing manual effort and error rates. These automations resulted in significant time and cost savings for the organization and led to increased customer engagement.
+										</li>
+					                  	<li>
+					                  		Crafted data models for diverse project requirements that drove data-driven decision making and facilitated API and business intelligence app development.
+					                  	</li>
+					                  	<li>
+					                  		Designed and developed custom reports tailored to specific needs of internal users, including sales teams and executives. Results were presented in a clear and actionable manner, facilitating strategic planning and execution.
+					                  	</li>
+					                  	<li>
+					                  		Led the way in modernizing the company tech stack through the development of a Python/Django based BI application hosted on the cloud.
+					                  	</li>
+					                  	<li>
+					                  		Engineered analytics systems using Tableau, Oracle APEX and Python.
+					                  	</li>
+					                  </ul>
+					                  <p>
+					                  	Tech Stack: Oracle APEX, AWS GovCloud, Salesforce, Postgres, RDS, EC2, Tableau, Alteryx
+					                  	<br>
+					                  	Languages: Python, SQL, PL/SQL, R, Django, JavaScript (React, NextJS), PySpark
+					                  </p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-5">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">Business Operations Analyst</a> <span>Jan 2016 - Aug 2018</span></h2>
+					                  <ul>
+					                  	<li>
+					                  		Assisted in developing inventory management systems in compliance with external auditors
+					                  	</li>
+					                  	<li>
+					                  		Supported finance teams by troubleshooting internal processes with AP and AR
+					                  	</li>
+					                  	<li>
+					                  		Led warehouse audits to support SOC2 and ISO certifications
+					                  	</li>
+					                  </ul>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-6">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">Inventory Analyst</a> <span>Jan 2013 - Dec 2015</span></h2>
+					                  <ul>
+					                  	<li>Warehouse Inventory Auditing</li>
+					                  </ul>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-none">
+					               </div>
+					            </div>
+					         </article>
+					      </div>
+					   </div>
+				   </div>
+				</div>
+			</section>
+
+			<section class="colorlib-work" data-section="work">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">My Work</span>
+							<h2 class="colorlib-heading animate-box">Recent Work</h2>
+						</div>
+					</div>
+
+					<!--
+					<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+						<div class="col-md-12">
+							<p class="work-menu"><span><a href="#" class="active">Graphic Design</a></span> <span><a href="#">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
+						</div>
+					</div>
+					-->
+
+
+					<div class="row">
+						<h2>Interactive Mapping and Data Visualization Project</h2>
+						<p>
+							<strong>Description:</strong>
+							Developed a dynamic map-based interface using Folium to visualize Salesforce account details and Oracle segmentation data. Integrated various data sources to display comprehensive insights including sales history, Salesforce opportunity metrics, and more.
+						</p>
+						<p>
+							<strong>Key Features:</strong>
+							<ul>
+								<li>Utilized Folium to create an interactive map displaying Salesforce account locations.</li>
+    							<li>Integrated Oracle segmentation data to enrich the map with additional insights.</li>
+    							<li>Implemented dynamic data visualization to showcase sales history and opportunity metrics.</li>
+    							<li>Demonstrated proficiency in Django for backend development and frontend design.</li>
+							</ul>
+						</p>
+						<p>
+							<strong>Technologies Used:</strong>
+							Python, Django, Folium, Salesforce, Oracle, Postgres, AWS Elastic Beanstalk, AWS Glue, AWS RDS
+						</p>
+					  {{ map | safe }}
+					</div>
+
+					<br>
+
+					
+
+
+					<div class="row">
+						<!--
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url({% static 'dashboards/images/img-1.jpg' %});">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="work.html">Work 01</a></h3>
+										<span>Website</span>
+										<p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url({% static 'dashboards/images/img-2.jpg' %});">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="work.html">Work 02</a></h3>
+										<span>Animation</span>
+										<p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
+							<div class="project" style="background-image: url({% static 'dashboards/images/img-3.jpg' %});">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="work.html">Work 03</a></h3>
+										<span>Illustration</span>
+										<p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
+							<div class="project" style="background-image: url({% static 'dashboards/images/img-4.jpg' %});">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="work.html">Work 04</a></h3>
+										<span>Application</span>
+										<p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url({% static 'dashboards/images/img-5.jpg' %});">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="work.html">Work 05</a></h3>
+										<span>Graphic, Logo</span>
+										<p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url({% static 'dashboards/images/img-6.jpg' %});">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="work.html">Work 06</a></h3>
+										<span>Web Design</span>
+										<p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						-->
+
+					</div>
+					<!--
+					<div class="row">
+						<div class="col-md-12 animate-box">
+							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
+						</div>
+					</div>
+				-->
+				</div>
+			</section>
+
+			<section class="colorlib-blog" data-section="blog">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Read</span>
+							<h2 class="colorlib-heading">Recent Blog</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<div class="blog-img"><img src="{% static 'dashboards/images/ERNC1-thumb.png' %}" class="img-responsive"></div>
+								<div class="desc">
+									<span><small>February 29, 2024 </small> | <small> Hiking </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+									<h3><Eagle River Nature Center</h3>
+									<p>Short winter hike in Eagle River, Alaska.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="blog-entry">
+								<div class="blog-img"><img src="{% static 'dashboards/images/aurora6-thumb.png' %}" class="img-responsive"></div>
+								<div class="desc">
+									<span><small>November 5, 2023 </small> | <small> Aurora </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+									<h3>Aurora</h3>
+									<p>Aurora was out for a short time last night.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<div class="blog-img"><img src="{% static 'dashboards/images/Butte1-thumb.png' %}" class="img-responsive"></div>
+								<div class="desc">
+									<span><small>June 29, 2023 </small> | <small> Hiking </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+									<h3>The Butte</h3>
+									<p>Late evening hike in Palmer, Alaska. It's 9PM in this shot.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--
+					<div class="row">
+						<div class="col-md-12 animate-box">
+							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
+						</div>
+					</div>
+					-->
+				</div>
+			</section>
+
+			<section class="colorlib-contact" data-section="contact">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Get in Touch</span>
+							<h2 class="colorlib-heading">Contact</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5">
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-globe-outline"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="https://www.linkedin.com/in/christopher-etheridge-msda/" target='_blank'>LinkedIn</a></p>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-map"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>Anchorage, Alaska</p>
+								</div>
+							</div>
+						<!--
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-phone"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="tel://">+123 456 7890</a></p>
+								</div>
+							</div>
+						-->
+						</div>
+						
+						<div class="col-md-7 col-md-push-1">
+							<div class="row">
+								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
+									<!--
+									<form action="">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Name">
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Email">
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Subject">
+										</div>
+										<div class="form-group">
+											<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+										</div>
+										<div class="form-group">
+											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
+										</div>
+									</form>
+								-->
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div><!-- end:colorlib-main -->
+	</div><!-- end:container-wrap -->
+	</div><!-- end:colorlib-page -->
+
+	<!-- jQuery -->
+	<script src="{% static 'dashboards/js/jquery.min.js' %}"></script>
+	<!-- jQuery Easing -->
+	<script src="{% static 'dashboards/js/jquery.easing.1.3.js' %}"></script>
+	<!-- Bootstrap -->
+	<script src="{% static 'dashboards/js/bootstrap.min.js' %}"></script>
+	<!-- Waypoints -->
+	<script src="{% static 'dashboards/js/jquery.waypoints.min.js' %}"></script>
+	<!-- Flexslider -->
+	<script src="{% static 'dashboards/js/jquery.flexslider-min.js' %}"></script>
+	<!-- Owl carousel -->
+	<script src="{% static 'dashboards/js/owl.carousel.min.js' %}"></script>
+	<!-- Counters -->
+	<script src="{% static 'dashboards/js/jquery.countTo.js' %}"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="{% static 'dashboards/js/main.js' %}"></script>
+
+	</body>
+</html>
+
